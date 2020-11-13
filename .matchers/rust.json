@@ -10,6 +10,10 @@
                     "code": 3
                 },
                 {
+                    "regexp": "^test result: FAILED.*$",
+                    "message": 0
+                },
+                {
                     "regexp": "^([\\s->=]*(.*):(\\d*):(\\d*)|.*)$",
                     "file": 2,
                     "line": 3,
